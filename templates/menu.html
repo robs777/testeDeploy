@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Sistema de Gerenciamento de Clientes</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('inserir_cliente') }}">Inserir Cliente</a></li>
+            <li><a href="{{ url_for('visu_clientes') }}">Visualizar Clientes</a></li>
+            <li><a href="{{ url_for('att_cliente') }}">Atualizar Cliente</a></li>
+            <li><a href="{{ url_for('del_cliente') }}">Deletar Cliente</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
